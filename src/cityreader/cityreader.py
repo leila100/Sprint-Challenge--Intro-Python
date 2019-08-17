@@ -78,6 +78,10 @@ cityreader(cities)
 
 
 def cityreader_stretch(lat1, lon1, lat2, lon2, cities=[]):
+    lat1 = float(lat1)
+    lat2 = float(lat2)
+    lon1 = float(lon1)
+    lon2 = float(lon2)
     min_lat = 0
     max_lat = 0
     min_lon = 0
